@@ -1,0 +1,188 @@
+/* Üst Çubuk */
+.top-bar {
+    background-color: #003366; /* Lacivert */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0 20px;
+  }
+  
+  /* Instagram logosu */
+  .instagram-logo {
+    position: absolute;
+    left: 20px;
+  }
+  
+  .instagram-logo img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Telefon numarası ortalanır */
+  .phone-number {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+/* Genel Sayfa Stili */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header (Üst Menü) */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* About (Hakkımızda) */
+  .about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Hizmetler Bölümü */
+  /* Hizmetler Bölümü */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    background-color: #eaeaea;
+    padding: 50px 20px;
+  }
+  
+  .service-box {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-box h3 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .service-box p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  
+  /* Ürünler Bölümü */
+  .products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .product-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    width: calc(33.33% - 30px);
+    box-sizing: border-box;
+  }
+  
+  .product-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .product-box h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-box p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .product-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* İletişim Bölümü */
+  .contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px
+  }  
